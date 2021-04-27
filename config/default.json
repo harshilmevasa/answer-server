@@ -1,0 +1,4 @@
+{
+    "mongoDBConnection" :"mongodb+srv://abhi:z9dM8cCwM1BpYZQy@cluster0.4nm8s.mongodb.net/answer-now?retryWrites=true&w=majority" ,
+    "jwtsecret": "project"
+}

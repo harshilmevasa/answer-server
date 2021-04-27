@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "d8364b8d-3e20-44f7-8433-0a2eb3ef08d3",
+		"name": "ANSWER-NOW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"abhi@gmail.com\",\r\n    \"password\": \"12346\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/auth",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions/6084bec5d6ba873ab88d53cf",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/6084bec5d6ba873ab88d53cf",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						"6084bec5d6ba873ab88d53cf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/auth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/auth",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tags\": [\r\n        \"#vuejs\",\r\n        \".NET\",\r\n        \"C#\",\r\n        \"#perfect\"\r\n    ],\r\n    \"category\": [\r\n        \"Math\",\r\n        \"Science\",\r\n        \"Technical\"\r\n    ],\r\n    \"comments\": [],\r\n    \"title\": \"DEPLOYMENT\",\r\n    \"description\": \"DEPLOYMENT new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior sdf\",\r\n    \"user\": \"60771fac598e8f61742a9da3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tags\": [\r\n        \"#vuejs\",\r\n        \".NET\",\r\n        \"C#\",\r\n        \"#perfect\"\r\n    ],\r\n    \"category\": [\r\n        \"Math\",\r\n        \"Science\",\r\n        \"Technical\"\r\n    ],\r\n    \"id\": \"60873516c0831f002237bc6e\",\r\n    \"comments\": [],\r\n    \"title\": \"DEPLOYMENT updated\",\r\n    \"description\": \"DEPLOYMENT updated new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior new question for testing the behavior sdf\",\r\n    \"user\": \"60771fac598e8f61742a9da3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions/6084bec5d6ba873ab88d53cf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/6084bec5d6ba873ab88d53cf",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						"6084bec5d6ba873ab88d53cf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions/60772040598e8f61742a9da4",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/60772040598e8f61742a9da4",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						"60772040598e8f61742a9da4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions/60805fe2940dea48a4fbb9ee/addLike",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/60805fe2940dea48a4fbb9ee/addLike",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						"60805fe2940dea48a4fbb9ee",
+						"addLike"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://answernow-server.herokuapp.com/api/questions/60805fe2940dea48a4fbb9ee/addView",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA3NzFmYWM1OThlOGY2MTc0MmE5ZGEzIiwibmFtZSI6IkFiaGlzaGVrIn0sImlhdCI6MTYxOTQ3MzIwMCwiZXhwIjoxNjE5NDc2ODAwfQ.aI9zuWazqBDBsWyAnrtYX_7CsHVSi_G6bsaSkqtm2os",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://answernow-server.herokuapp.com/api/questions/60805fe2940dea48a4fbb9ee/addView",
+					"protocol": "https",
+					"host": [
+						"answernow-server",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"questions",
+						"60805fe2940dea48a4fbb9ee",
+						"addView"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
